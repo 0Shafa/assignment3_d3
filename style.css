@@ -1,0 +1,49 @@
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #f7f7f7;
+    margin: 40px;
+}
+
+.title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.controls {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.label {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.dropdown {
+    padding: 8px 14px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #888;
+    background: white;
+    outline: none;
+    cursor: pointer;
+}
+
+#chart {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+}
+
+.tooltip {
+    position: absolute;
+    padding: 8px;
+    background: white;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    pointer-events: none;
+    font-size: 14px;
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.15);
+}
